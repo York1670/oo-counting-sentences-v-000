@@ -16,5 +16,9 @@ class String
 
   def count_sentences
     the_divide = self.split(/[.?!]/)
+    final_count = []
+    if the_divide.length > 0
+      final_count << the_divide
+    end
   end
 end
