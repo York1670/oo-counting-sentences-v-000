@@ -22,5 +22,6 @@ class String
     else
       the_divide.count
     end
+    final_count.count
   end
 end
