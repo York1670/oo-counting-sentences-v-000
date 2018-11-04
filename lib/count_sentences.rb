@@ -16,6 +16,6 @@ class String
 
   def count_sentences
     try = self.split(/[.?!]/).count
-    final = self.reject{|try| try.include? try < 1}
+    final = self.self {|try| try.include? try > 0}
   end
 end
